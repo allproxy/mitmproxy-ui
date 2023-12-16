@@ -1,0 +1,35 @@
+{
+  "name": "mitmproxy",
+  "version": "1.0.0",
+  "description": "MITM Debug Proxy",
+  "keywords": [
+    "proxy",
+    "debug",
+    "mitm",
+    "fiddler",
+    "charles",
+    "http",
+    "https",
+    "sql",
+    "grpc",
+    "tcp"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start": "cd ./node_modules/allproxy && node ./headless.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allproxy/mitmproxy.git"
+  },
+  "author": "Dave Christenson",
+  "license": "MIT",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/allproxy/mitmproxy/issues"
+  },
+  "homepage": "https://github.com/allproxy/mitmproxy#readme",
+  "dependencies": {
+    "allproxy": "^3.43.5"
+  }
+}
