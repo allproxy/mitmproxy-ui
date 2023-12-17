@@ -16,7 +16,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "start": "cd ./node_modules/allproxy && node ./headless.js"
+    "start": "cd ./node_modules/allproxy && ALLPROXY_APP=mitmproxy node ./headless.js"
   },
   "repository": {
     "type": "git",
