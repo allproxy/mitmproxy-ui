@@ -8,7 +8,7 @@ MITM debugging proxy UI to view and modify the HTTP and HTTPS (SSL) traffic betw
 
 ![Alt text](image.png)
 
-### Try AllProxy Online
+### Try MITM Proxy Online
 
 To try a `readonly` demo:
 * Click [Try it out](https://allproxy.ddns.net/mitmproxy)
