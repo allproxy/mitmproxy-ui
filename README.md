@@ -17,7 +17,9 @@ To try a `readonly` demo:
 
 ### Install
 
-> Clone repo and run: **npm install && npm start**
+> 1. Clone repo.
+> 2. Install and build: **npm install**
+> 3. Start server: **npm start**
 
 > Open `MITM Proxy` in browser;
 >    * [localhost:8888/mitmproxy](http://localhost:8888/mitmproxy)
