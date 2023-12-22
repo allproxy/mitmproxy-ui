@@ -15,6 +15,9 @@ To try a `readonly` demo:
 * On the left side panel click the `Restore Session` button
 * From the Restore Session Modal click `Restore` to restore a sample session
 
+You may also make some local configuration changes:
+* Edit `Queries`
+
 ### Install
 
 > 1. Clone repo.
