@@ -1,5 +1,5 @@
 {
-  "name": "mitmproxy",
+  "name": "mitmproxy-ui",
   "version": "3.45.0",
   "description": "MITM Debug Proxy",
   "keywords": [
@@ -24,15 +24,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/allproxy/mitmproxy.git"
+    "url": "git+https://github.com/allproxy/mitmproxy-ui.git"
   },
   "author": "Dave Christenson",
   "license": "MIT",
   "private": false,
   "bugs": {
-    "url": "https://github.com/allproxy/mitmproxy/issues"
+    "url": "https://github.com/allproxy/mitmproxy-ui/issues"
   },
-  "homepage": "https://github.com/allproxy/mitmproxy#readme",
+  "homepage": "https://github.com/allproxy/mitmproxy-ui#readme",
   "dependencies": {
     "allproxy": "^3.43.5"
   }
