@@ -15,6 +15,10 @@
     "tcp"
   ],
   "main": "index.js",
+  "bin": {
+    "mitmproxy-ui": "bin/mitmproxy-ui",
+    "mitmproxy-ui_win.bat": "bin/mitmproxy-ui_win.bat"
+  },
   "scripts": {
     "start": "cd ./node_modules/allproxy && ALLPROXY_APP=mitmproxy node ./headless.js"
   },
