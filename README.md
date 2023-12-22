@@ -18,7 +18,11 @@ To try a `readonly` demo:
 You may also make some local configuration changes:
 * Edit `Queries`
 
-### Install
+### Install NPM Package
+> 1. `npm install -g mitmproxy-ui`
+> 2. Run `mitmporoxy-ui`
+
+### Build Package
 
 > 1. Clone repo.
 > 2. `npm install` # The production build may take a minute...
