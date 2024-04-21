@@ -1,0 +1,9 @@
+{
+  "jsonFields": [],
+  "method": "advanced",
+  "jsonLogScript": "// Function called to extract date, level, app name and message\n//\n// @param preJSONString: string - optional non-JSON string proceeding JSON object\n// @param jsonObject: {} - JSON log data\n// @returns {date: Date, level: string, category: string, appName: string, message: string, rawLine: string, additionalJSON: {} }\n//\n// category is the availability zone\n// appName is the pod name\n//\nconst extractDateLevelCategoryAppNameMessage = function (preJSONString, jsonObject) {\n    let level = 'info';\n    let date = new Date();\n    let category = '';\n    let appName = 'App_name_is_not_set';\n    let message = 'Message is not set - Click \"?\" in upper right to extract fields from JSON';\n    // return raw JSON (optional)\n    let rawLine;\n    // Copy any JSON fields not defined in jsonObject\n    let additionalJSON = {};\n\n    // Set the level\n    // level = jsonObject.m_level;\n\n    // Set the date\n    //date = jsonObject.my_date;\n\n    // Set the app name\n    //appName = jsonObject.my_app;\n\n    // Set message\n    //message = jsonObject.my_message;\n\n    return { date, level, category, appName, message, rawLine, additionalJSON };\n}",
+  "queries": {},
+  "briefJsonFields": "{}",
+  "jsonSubQueries": "[]",
+  "jsonQueries": "[]"
+}
