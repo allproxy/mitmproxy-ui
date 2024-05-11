@@ -34,6 +34,6 @@
   },
   "homepage": "https://github.com/allproxy/mitmproxy-ui#readme",
   "dependencies": {
-    "allproxy": "^3.43.5"
+    "allproxy": "^3.50.9"
   }
 }
