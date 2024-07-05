@@ -8,16 +8,6 @@ MITM debugging proxy UI to view and modify the HTTP and HTTPS (SSL) traffic betw
 
 ![Alt text](image.png)
 
-### Try MITM Proxy Online
-
-To try a `readonly` demo:
-* Click [Try it out](https://allproxy.ddns.net/mitmproxy)
-* On the left side panel click the `Restore Session` button
-* From the Restore Session Modal click `Restore` to restore a sample session
-
-You may also make some local configuration changes:
-* Edit `Queries`
-
 ### Install NPM Package
 > 1. `npm install -g mitmproxy-ui`
 > 2. Run `mitmporoxy-ui`
