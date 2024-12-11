@@ -1,6 +1,6 @@
 {
   "name": "mitmproxy-ui",
-  "version": "3.53.6",
+  "version": "3.53.7",
   "description": "MITM Debug Proxy UI",
   "keywords": [
     "proxy",
@@ -34,6 +34,6 @@
   },
   "homepage": "https://github.com/allproxy/mitmproxy-ui#readme",
   "dependencies": {
-    "allproxy": "^3.53.6"
+    "allproxy": "^3.53.7"
   }
 }
