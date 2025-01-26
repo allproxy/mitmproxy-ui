@@ -1,6 +1,6 @@
 {
   "name": "mitmproxy-ui",
-  "version": "3.54.1",
+  "version": "3.54.2",
   "description": "MITM Debug Proxy UI",
   "keywords": [
     "proxy",
