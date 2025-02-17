@@ -20,6 +20,7 @@
     "mitmproxy-ui_win.bat": "bin/mitmproxy-ui_win.bat"
   },
   "scripts": {
+    "install": "npm install allproxy",
     "start": "cd ./node_modules/allproxy && ALLPROXY_APP=mitmproxy node ./headless.js"
   },
   "repository": {
@@ -32,8 +33,5 @@
   "bugs": {
     "url": "https://github.com/allproxy/mitmproxy-ui/issues"
   },
-  "homepage": "https://github.com/allproxy/mitmproxy-ui#readme",
-  "dependencies": {
-    "allproxy": "^3.53.9"
-  }
+  "homepage": "https://github.com/allproxy/mitmproxy-ui#readme"
 }
